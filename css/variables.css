@@ -1,0 +1,31 @@
+    /* ariaveis css */
+    html {
+        --bg-color: #EDF2FF;
+        --text-color: #00082F;
+        --cor-neon: #4263EB;
+        --primary-color: #4263EB;
+        --primary-color-hover: #364FC7;
+    }
+
+    body.dark-blue {
+        --bg-color: #00082F;
+        --text-color: #FFFFFF;
+        --cor-neon: #4263EB;
+        --primary-color: #4263EB;
+
+    }
+
+    body.pink {
+        --bg-color: #FFF0F6;
+        --text-color: #1F000B;
+        --cor-neon: #4263EB;
+        --primary-color: #f633f6;
+        --primary-color-hover: #A61E4D;
+    }
+
+    body.dark-pink {
+        --bg-color: #1F000B;
+        --text-color: #FFF0F6;
+        --primary-color: #D6336C;
+        --primary-color-hover: #A61E4D;
+    }

@@ -1,0 +1,50 @@
+@import './variables.css';
+
+@keyframes neon {
+    from {
+        filter: drop-shadow(0 0 0 var(--primary-color));
+    }
+
+    to {
+        filter: drop-shadow(0 0 1.875rem var(--primary-color));
+    }
+}
+
+@keyframes pink {
+    from {
+        filter: drop-shadow(0 0 0 #F6336C);
+    }
+
+    to {
+        filter: drop-shadow(0 0 1.875rem #F6336C);
+    }
+}
+
+@keyframes darkpink {
+    from {
+        filter: drop-shadow(0 0 0 #D6336C);
+    }
+
+    to {
+        filter: drop-shadow(0 0 1.875rem #69293f);
+    }
+}
+
+@keyframes ligthblue {
+    from {
+        filter: drop-shadow(0 0 0 #FFF);
+    }
+
+    to {
+        filter: drop-shadow(0 0 1.875rem #5c75db);
+    }
+}
+@keyframes darkblue {
+    from {
+        filter: drop-shadow(0 0 0 #FFF);
+    }
+
+    to {
+        filter: drop-shadow(0 0 1.875rem #5c75db);
+    }
+}

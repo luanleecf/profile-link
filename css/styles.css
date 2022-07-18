@@ -1,0 +1,161 @@
+@import './variables.css';
+@import './keyframes.css';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.datatime {
+    padding: 1.875rem;
+}
+
+.date {
+    padding: 0 0.313rem;
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 30%;
+    background-color: var(--bg-color);
+    animation: neon 3s alternate infinite ease-in-out;
+}
+
+button:hover {
+    background-color: #9a9ca5;
+    opacity: 0.6;
+
+    transition: opacity 400ms;
+
+}
+
+.toggle {
+    display: flex;
+    justify-content: center;
+}
+
+.cores {
+    font-size: 0.688rem;
+    width: 7.5rem;
+    height: 1.875rem;
+    float: left;
+    margin: 0 5px 6.25rem;
+    align-items: center;
+    background: white;
+    font-weight: 400;
+
+    color: #00082F;
+    border-radius: 0.625rem;
+    cursor: pointer;
+
+}
+
+.btndarkblue {
+    border: 0.1rem solid;
+    animation: darkblue 3s alternate infinite ease-in-out;
+}
+
+.btnpink {
+    border: 0.1rem #F6336C solid;
+    animation: pink 3s alternate infinite ease-in-out;
+}
+
+.btndarkpink {
+    border: 0.1rem #D6336C solid;
+    animation: darkpink 3s alternate infinite ease-in-out;
+}
+
+.blue {
+    border: 0.1rem #4263EB solid;
+    animation: ligthblue 3s alternate infinite ease-in-out;
+}
+
+
+.container {
+    text-align: center;
+    width: 18.75rem;
+    margin: 3.75rem auto;
+}
+
+img {
+    width: 100%;
+    animation: neon 3s alternate infinite ease-in-out;
+}
+
+img.avatar {
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    padding: 0.231rem;
+    border: var(--primary-color) solid 0.25rem;
+    color: var(--cor-neon);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.username {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    opacity: 0.8;
+    font-size: 1.125rem;
+}
+
+ul {
+    list-style: none;
+    margin: 3rem 0;
+}
+
+ul li a {
+    height: 3.313rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+
+    margin-bottom: 1rem;
+    border-radius: 0.375rem;
+
+    transition: background 400ms;
+}
+
+ul li a:hover {
+    background: var(--primary-color-hover);
+}
+
+footer {
+    font-weight: 500;
+    /* font-size: 0.75rem; */
+    opacity: 0.6;
+
+    transition: opacity 400ms;
+
+    color: var(--primary-color);
+    animation: neon 1s alternate infinite ease-in-out;
+
+}
+
+footer:hover {
+    opacity: 1;
+}
+
+footer a {
+    color: var(--text-color);
+
+}
